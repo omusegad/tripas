@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:tripas/menus/popup.dart';
 
 class Trips extends StatelessWidget {
   @override
@@ -184,8 +185,9 @@ class TripBoards extends StatelessWidget {
                                   style: GoogleFonts.nunito(
                                       color: Color(0XFFA5A2A2))),
                             ),
-                            FlatButton(
-                                onPressed: null, child: Icon(Icons.more_vert))
+                            PopupChoices(),
+                            // FlatButton(
+                            //     onPressed:null , child: Icon(Icons.more_vert))
                           ]),
                     ),
                   ]),
